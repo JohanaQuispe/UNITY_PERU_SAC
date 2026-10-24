@@ -1,0 +1,12 @@
+﻿Id_TipoMovimiento;Codigo;Nombre;Signo_Stock;Es_Entrada;Es_Salida_Real
+1;INGRESO;Ingreso al almacén;1;1;0
+2;SALIDA;Salida del almacén;-1;0;1
+3;ASIGNACION;Asignación a proyecto o servicio;-1;0;1
+4;DEVOLUCION;Devolución al almacén;1;1;0
+5;TRASLADO_SALIDA;Traslado de salida;-1;0;0
+6;TRASLADO_ENTRADA;Traslado de entrada;1;1;0
+7;MANTENIMIENTO_SALIDA;Ingreso a mantenimiento;-1;0;0
+8;MANTENIMIENTO_ENTRADA;Retorno de mantenimiento;1;1;0
+9;REEMPLAZO;Reemplazo de componente;0;0;0
+10;BAJA;Baja definitiva;-1;0;1
+11;OBSOLESCENCIA;Retiro por obsolescencia;-1;0;1

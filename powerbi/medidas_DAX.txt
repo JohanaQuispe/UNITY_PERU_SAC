@@ -1,0 +1,23 @@
+// Medidas DAX — Dashboard BI almacén (pegar en Power BI: clic derecho en Fact_Movimiento > Nueva medida)
+// Fuente única: datamart DM_ALMACEN_ANONIMO. Valores esperados entre [corchetes].
+
+Unidades_Entradas = CALCULATE(SUM(Fact_Movimiento[Cantidad]), Dim_TipoMovimiento[Es_Entrada] = TRUE())  // [15,425]
+Unidades_Salidas  = CALCULATE(SUM(Fact_Movimiento[Cantidad]), Dim_TipoMovimiento[Es_Salida_Real] = TRUE())  // [15,078]
+Costo_Entradas    = CALCULATE(SUM(Fact_Movimiento[Costo_Total]), Dim_TipoMovimiento[Es_Entrada] = TRUE())
+Costo_Salidas     = CALCULATE(SUM(Fact_Movimiento[Costo_Total]), Dim_TipoMovimiento[Es_Salida_Real] = TRUE())
+Inversion_Retenida = [Costo_Entradas] - [Costo_Salidas]  // [S/ 812 mil]
+Rotacion_Global   = DIVIDE([Unidades_Salidas], [Unidades_Entradas])  // [0.98]
+TPP               = AVERAGE(Fact_Movimiento[Dias_Permanencia])  // [3.87] — AVG ignora NULL (ingresos) automáticamente
+Stock_Neto        = [Unidades_Entradas] - [Unidades_Salidas]
+VM_Entradas       = DIVIDE([Unidades_Entradas] - SUM(stg_Plan_Mensual[Entradas_Plan]), SUM(stg_Plan_Mensual[Entradas_Plan]))  // [+0.77 %]
+VM_Salidas        = DIVIDE([Unidades_Salidas] - SUM(stg_Plan_Mensual[Salidas_Plan]), SUM(stg_Plan_Mensual[Salidas_Plan]))  // [−0.75 %]
+N_Anomalias       = COUNTROWS(FILTER(stg_Sensores, stg_Sensores[Es_Anomalia] = TRUE()))  // [297]
+Exactitud_Global  = AVERAGE(stg_Conteos[Exactitud_Linea])
+
+// Notas de modelo:
+// - Relaciones hecho→dimensiones automáticas por Id_* (roles origen/destino y anterior/nuevo: 1 activa + 1 inactiva, no tocar).
+// - Para que VM_* funcione por mes/categoría, relaciona stg_Plan_Mensual[Mes] con Dim_Tiempo[Mes] y
+//   stg_Plan_Mensual[Categoria] con Dim_Producto[Categoria] (cardinalidad * a *, filtro único).
+// - Dim_Tiempo[Nombre_Mes]: Ordenar por columna → Mes (si no, los meses salen desordenados).
+// - Tablas stg_*: ocultar en la vista de informe (las medidas las leen igual); usar Categoria de Dim_Producto en segmentadores.
+// - Formato: TPP 2 decimales; VM_* en %.

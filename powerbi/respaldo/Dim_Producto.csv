@@ -1,0 +1,25 @@
+﻿Id_Producto;Cod_Componente;Descripcion;Categoria;Marca;Modelo;Criticidad;Stock_Minimo;Precio_Unitario
+1;CMP001;SSD empresarial 1.92 TB;Almacenamiento;Samsung;PM893;ALTA;8.0;1850.0
+2;CMP002;Memoria ECC 32 GB;Memoria;HPE;DDR4-ECC-32;ALTA;10.0;950.0
+3;CMP003;Transceptor óptico 10Gb SFP+;Redes;Cisco;SFP-10G-SR;ALTA;12.0;720.0
+4;CMP004;Interfaz de red empresarial;Redes;Cisco;C9200-NIC;MEDIA;6.0;1450.0
+5;CMP005;PDU empresarial 32A;Energía;APC;APC-PDU-32;ALTA;3.0;4200.0
+6;CMP006;PDU trifásica 32A;Energía;Schneider Electric;PDU-3PH-32;ALTA;2.0;6800.0
+7;CMP007;Ventilador para servidor;Refrigeración;Dell;FAN-R740;MEDIA;8.0;380.0
+8;CMP008;Procesador para servidor;Procesamiento;Intel;XEON-GOLD;ALTA;4.0;5600.0
+9;CMP009;Disco empresarial 4 TB;Almacenamiento;Dell;HDD-ENT-4TB;MEDIA;6.0;1250.0
+10;CMP010;UPS 10KVA;Energía;APC;APC-UPS-10K;ALTA;1.0;18500.0
+11;CMP011;SSD empresarial 3.84 TB;Almacenamiento;Samsung;PM893;ALTA;6.0;3200.0
+12;CMP012;Disco empresarial 8 TB;Almacenamiento;Dell;HDD-ENT-4TB;MEDIA;4.0;2100.0
+13;CMP013;Memoria ECC 16 GB;Memoria;Samsung;DDR4-ECC-16;MEDIA;8.0;520.0
+14;CMP014;Kit memoria ECC 64 GB (2x32);Memoria;HPE;DDR4-ECC-32;ALTA;6.0;1850.0
+15;CMP015;Procesador gama media;Procesamiento;Intel;XEON-SILV-4310;MEDIA;3.0;2900.0
+16;CMP016;Transceptor óptico 25Gb SFP28;Redes;Cisco;SFP-25G-SR;ALTA;8.0;1150.0
+17;CMP017;UPS 6KVA rackeable;Energía;APC;APC-UPS-10K;MEDIA;1.0;12800.0
+18;CMP018;Kit ventiladores redundantes 2U;Refrigeración;Dell;FAN-2U-KIT;MEDIA;4.0;890.0
+19;CMP019;Ventilador hot-swap 60 mm;Refrigeración;Dell;FAN-R740;BAJA;6.0;240.0
+20;CMP020;Gabinete rack 42U;Infraestructura;Dell;RACK-42U-G2;MEDIA;2.0;5400.0
+21;CMP021;Gabinete rack 24U;Infraestructura;Dell;RACK-42U-G2;BAJA;2.0;3600.0
+22;CMP022;Panel piso técnico 600x600;Infraestructura;Schneider Electric;PISO-TEC-600;BAJA;10.0;180.0
+23;CMP023;Bandeja rack 1U;Infraestructura;Dell;RACK-42U-G2;BAJA;8.0;320.0
+24;CMP024;Riel para servidor 2U;Infraestructura;Dell;RACK-42U-G2;MEDIA;6.0;450.0

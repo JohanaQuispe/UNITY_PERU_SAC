@@ -1,0 +1,7 @@
+﻿Id_Almacen;Codigo_Ubicacion;Nombre_Ubicacion;Tipo_Ubicacion
+1;ALM-CEN-A01;Almacén Central - Rack A01;ALMACEN
+2;ALM-CEN-A02;Almacén Central - Rack A02;ALMACEN
+3;ALM-CEN-B01;Almacén Central - Rack B01;ALMACEN
+4;ALM-CEN-C01;Almacén Central - Rack C01;ALMACEN
+5;MANT-01;Zona de mantenimiento;MANTENIMIENTO
+6;TRANSITO;Zona de tránsito;TRANSITO

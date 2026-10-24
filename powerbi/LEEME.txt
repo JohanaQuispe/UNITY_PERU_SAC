@@ -1,0 +1,15 @@
+COLECCIÓN powerbi/ — qué hay y para qué sirve
+=============================================
+
+1) medidas_DAX.txt      -> las 12 medidas del modelo, listas para pegar (con valor esperado).
+2) GUIA_POWERBI.md      -> como construir Dashboard_Almacen_BI.pbix en 15 min (relaciones, medidas,
+                           tema, maqueta de las 3 paginas y verificacion final).
+3) Tema_Almacen_Unity.json -> tema visual (paleta y tipografias) para Ver > Temas > Examinar temas.
+4) respaldo/*.csv       -> contenido del datamart (14 tablas). Permite construir o refrescar el
+                           dashboard SIN SQL Server: Obtener datos > Carpeta > respaldo.
+
+El archivo Dashboard_Almacen_BI.pbix se genera con Power BI Desktop siguiendo la guia (es formato
+binario: no puede crearse fuera de la herramienta) y debe subirse aqui antes de la defensa.
+Valores que deben coincidir en el tablero:
+  TPP 3.87 | Entradas 15,425 | Salidas 15,078 | Inversion retenida S/ 812,060 | Rotacion 0.98
+  VM +0.77 % / -0.75 % | Anomalias 297 | Exactitud 96.55 % | Filas del hecho 5,348

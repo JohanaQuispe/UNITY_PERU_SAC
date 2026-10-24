@@ -1,0 +1,6 @@
+﻿Id_Proyecto;Codigo_Proyecto;Nombre_Proyecto;Tipo_Proyecto;Estado
+1;PRY001;Mantenimiento preventivo Data Center Norte;MANTENIMIENTO;ACTIVO
+2;PRY002;Implementación de infraestructura de red;IMPLEMENTACION;CERRADO
+3;PRY003;Renovación de servidores críticos;RENOVACION;ACTIVO
+4;PRY004;Mantenimiento de infraestructura eléctrica;MANTENIMIENTO;ACTIVO
+5;PRY005;Actualización de almacenamiento;ACTUALIZACION;PLANIFICADO
