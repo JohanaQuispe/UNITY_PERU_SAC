@@ -49,6 +49,9 @@ git checkout v1.0
 **Verificación:** dentro de la carpeta deben existir `scripts`, `etl`, `datos`, `logs`,
 `powerbi`, `evidencias`, `analisis` y `docs`.
 
+<img width="477" height="630" alt="Captura de pantalla 2026-10-24 100735" src="https://github.com/user-attachments/assets/d71aa9f9-b575-43a7-9590-625ef6b5dc9a" />
+
+
 > **Todas las instrucciones siguientes se ejecutan desde la raíz de esa carpeta.**
 > En PowerShell, la ruta debe terminar en `\UNITY_PERU_SAC>`.
 
@@ -78,6 +81,11 @@ Si `python` no se reconoce, reinstalar marcando **"Add python.exe to PATH"**.
 3. **Conectar**.
 4. Menú **Archivo → Abrir → Archivo…** y seleccionar `scripts\01_OLTP_ALMACEN_ANONIMIZADO.sql`.
    (También sirve arrastrar el archivo a la ventana.)
+
+<img width="885" height="452" alt="Captura de pantalla 2026-10-24 101335" src="https://github.com/user-attachments/assets/de394361-a1df-4829-93a6-aace5af242ed" />
+
+<img width="750" height="471" alt="Captura de pantalla 2026-10-24 101444" src="https://github.com/user-attachments/assets/42bd28fc-9389-4fd0-baf5-3e2729d20719" />
+
 5. Presionar **F5** (Ejecutar).
 
 > Este script **borra y recrea** la base `ALMACEN_ANONIMO` si ya existía. Es seguro ejecutarlo
@@ -97,6 +105,9 @@ Debe devolver una fila: `ALMACEN_ANONIMO`.
 ## 4. Cargar los datos operacionales (script 02)
 
 1. **Archivo → Abrir → Archivo…** → `scripts\02_DATOS_ANONIMOS_ALMACEN.sql`
+
+<img width="753" height="473" alt="Captura de pantalla 2026-10-24 101503" src="https://github.com/user-attachments/assets/93be43f1-3da2-435c-90df-69e5decb0418" />
+
 2. **F5**. Tarda entre 20 y 60 segundos (son 12.520 líneas de INSERT).
 3. Esperar hasta que la barra de estado diga **"Consulta ejecutada correctamente"**.
 
@@ -117,6 +128,9 @@ Debe devolver **5348**.
 ## 5. Crear el datamart (script 03)
 
 1. **Archivo → Abrir → Archivo…** → `scripts\03_DM_ALMACEN_ANONIMO.sql`
+
+<img width="753" height="472" alt="Captura de pantalla 2026-10-24 101520" src="https://github.com/user-attachments/assets/73c75670-774d-4701-9677-c499ed32fed6" />
+
 2. **F5**.
 
 > Este script crea la base `DM_ALMACEN_ANONIMO` con **14 tablas vacías**:
