@@ -42,7 +42,9 @@ git checkout v1.0
 
 1. Abrir https://github.com/JohanaQuispe/UNITY_PERU_SAC
 2. Botón verde **Code → Download ZIP**
-3. Descomprimir en una ruta **sin espacios ni tildes**, por ejemplo `C:\proyecto\UNITY_PERU_SAC`
+   <img width="606" height="615" alt="image" src="https://github.com/user-attachments/assets/a2a6ae0b-87f8-4dd0-a967-15f0f13ff7eb" />
+
+4. Descomprimir en una ruta **sin espacios ni tildes**, por ejemplo `C:\proyecto\UNITY_PERU_SAC`
 
 **Verificación:** dentro de la carpeta deben existir `scripts`, `etl`, `datos`, `logs`,
 `powerbi`, `evidencias`, `analisis` y `docs`.
@@ -56,6 +58,8 @@ git checkout v1.0
 
 ```powershell
 python --version
+<img width="675" height="93" alt="image" src="https://github.com/user-attachments/assets/b34a5da0-ffbe-46d5-89b9-ccf470b256e1" />
+
 pip --version
 ```
 
