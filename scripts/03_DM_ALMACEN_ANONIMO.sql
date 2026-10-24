@@ -1,9 +1,3 @@
-/* ====================================================================
-   DATAMART DM_ALMACEN_ANONIMO (v2: + Dias_Permanencia en el hecho)
-   9 dimensiones + 1 hecho + 4 tablas staging (el staging NO es
-   parte de la estrella: es el área de paso del ETL).
-   Ejecutar en SQL Server. El ETL Python lo carga (ver §3.4.3).
-   ==================================================================== */
 USE master;
 GO
 IF DB_ID('DM_ALMACEN_ANONIMO') IS NOT NULL
