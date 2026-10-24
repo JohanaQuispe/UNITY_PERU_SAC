@@ -1,0 +1,7 @@
+Sube aquí las capturas finales en PNG:
+- fig09_dashboard_gerencial.png, fig10_dashboard_operativa.png, fig11_dashboard_proyectos.png
+  (1 por vista de Power BI, solo el lienzo, sin paneles laterales)
+- fig06_consola_etl.png (línea OK ... 5348/0/100.0)
+- fig07_conciliacion.png (Filas_Hecho 5348 + TPP 3.868701 + NULL en ingresos)
+
+Deben coincidir con las figuras del informe (mismo número y pie).
