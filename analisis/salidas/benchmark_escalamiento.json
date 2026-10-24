@@ -1,0 +1,50 @@
+{
+  "proceso": "transformación ETL v2.0 (FIFO + Dias_Permanencia + agregados KPI)",
+  "entorno": {
+    "cpu": "2 vCPU",
+    "ram": "4 GB",
+    "sistema_operativo": "Debian GNU/Linux 12",
+    "python": "3.11.2"
+  },
+  "fecha": "2026-10-23 21:50",
+  "repeticiones": 7,
+  "resultados": [
+    {
+      "escala": "x1",
+      "movimientos": 5348,
+      "repeticiones": 7,
+      "tiempo_mediana_s": 0.002,
+      "tiempo_min_s": 0.002,
+      "tiempo_max_s": 0.002,
+      "throughput_mov_s": 2362947.0,
+      "tpp": 3.8687,
+      "rotacion": 0.9775,
+      "salidas_con_permanencia": 1663
+    },
+    {
+      "escala": "x5",
+      "movimientos": 26740,
+      "repeticiones": 7,
+      "tiempo_mediana_s": 0.013,
+      "tiempo_min_s": 0.012,
+      "tiempo_max_s": 0.014,
+      "throughput_mov_s": 2136214.0,
+      "tpp": 3.8687,
+      "rotacion": 0.9775,
+      "salidas_con_permanencia": 8315
+    },
+    {
+      "escala": "x10",
+      "movimientos": 53480,
+      "repeticiones": 7,
+      "tiempo_mediana_s": 0.026,
+      "tiempo_min_s": 0.025,
+      "tiempo_max_s": 0.029,
+      "throughput_mov_s": 2071402.0,
+      "tpp": 3.8687,
+      "rotacion": 0.9775,
+      "salidas_con_permanencia": 16630
+    }
+  ],
+  "nota": "Cada escala replica el hecho completo N veces como copias independientes, de modo que cada entrada conserva sus salidas FIFO y los KPI permanecen constantes entre escalas; solo cambia el volumen procesado."
+}

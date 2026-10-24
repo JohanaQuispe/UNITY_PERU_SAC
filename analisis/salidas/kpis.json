@@ -1,0 +1,258 @@
+{
+  "version_etl": "2.0",
+  "fuente_oltp": "ALMACEN_ANONIMO",
+  "destino": "DM_ALMACEN_ANONIMO",
+  "registros_origen": 5348,
+  "registros_cargados": 5348,
+  "registros_rechazados": 0,
+  "completitud_pct": 100.0,
+  "nulos_obligatorios": 0,
+  "cantidad_no_positiva": 0,
+  "sin_producto": 0,
+  "duplicados": 0,
+  "filas_dim_tiempo": 193,
+  "filas_dim_producto": 24,
+  "filas_dim_lote": 3685,
+  "total_tablas_dm": 14,
+  "unidades_entradas": 15425,
+  "unidades_salidas": 15078,
+  "costo_entradas": 42772640.0,
+  "costo_salidas": 41960580.0,
+  "inversion_retenida": 812060.0,
+  "rotacion_global": 0.9775,
+  "stock_neto": 347,
+  "tpp": 3.868701,
+  "tpp_redondeado": 3.87,
+  "salidas_con_permanencia": 1663,
+  "dias_min": 0.0,
+  "dias_max": 20.0,
+  "permanencia_negativa": 0,
+  "plan_entradas": 15307.0,
+  "plan_salidas": 15192.0,
+  "vm_entradas_pct": 0.77,
+  "vm_salidas_pct": -0.75,
+  "lecturas_sensores": 25824,
+  "anomalias_sensores": 297,
+  "anomalias_pct": 1.15,
+  "conteos": 72,
+  "conteos_conformes": 56,
+  "exactitud_global": 0.9655,
+  "reconciliacion_ok": true,
+  "fecha_verificacion": "2026-10-23 21:46",
+  "serie_mensual": {
+    "1": {
+      "entradas": 1585,
+      "salidas": 1499,
+      "tpp": 0.61,
+      "salidas_con_permanencia": 301,
+      "anomalias": 4,
+      "lecturas": 2592
+    },
+    "2": {
+      "entradas": 1618,
+      "salidas": 1524,
+      "tpp": 2.29,
+      "salidas_con_permanencia": 200,
+      "anomalias": 10,
+      "lecturas": 2688
+    },
+    "3": {
+      "entradas": 1772,
+      "salidas": 1737,
+      "tpp": 3.48,
+      "salidas_con_permanencia": 185,
+      "anomalias": 125,
+      "lecturas": 2976
+    },
+    "4": {
+      "entradas": 1786,
+      "salidas": 1744,
+      "tpp": 4.07,
+      "salidas_con_permanencia": 178,
+      "anomalias": 7,
+      "lecturas": 2880
+    },
+    "5": {
+      "entradas": 1675,
+      "salidas": 1635,
+      "tpp": 4.86,
+      "salidas_con_permanencia": 157,
+      "anomalias": 7,
+      "lecturas": 2976
+    },
+    "6": {
+      "entradas": 1728,
+      "salidas": 1705,
+      "tpp": 5.57,
+      "salidas_con_permanencia": 159,
+      "anomalias": 5,
+      "lecturas": 2880
+    },
+    "7": {
+      "entradas": 1816,
+      "salidas": 1805,
+      "tpp": 5.73,
+      "salidas_con_permanencia": 166,
+      "anomalias": 104,
+      "lecturas": 2976
+    },
+    "8": {
+      "entradas": 1665,
+      "salidas": 1658,
+      "tpp": 5.96,
+      "salidas_con_permanencia": 154,
+      "anomalias": 8,
+      "lecturas": 2976
+    },
+    "9": {
+      "entradas": 1780,
+      "salidas": 1771,
+      "tpp": 5.57,
+      "salidas_con_permanencia": 163,
+      "anomalias": 27,
+      "lecturas": 2880
+    }
+  },
+  "serie_categoria": {
+    "Almacenamiento": {
+      "entradas": 2479,
+      "salidas": 2421,
+      "costo_entradas": 5244950.0,
+      "costo_salidas": 5122150.0,
+      "rotacion": 0.9766,
+      "tpp": 4.05
+    },
+    "Energía": {
+      "entradas": 1973,
+      "salidas": 1941,
+      "costo_entradas": 19271000.0,
+      "costo_salidas": 18963500.0,
+      "rotacion": 0.9838,
+      "tpp": 3.45
+    },
+    "Infraestructura": {
+      "entradas": 2428,
+      "salidas": 2365,
+      "costo_entradas": 3916150.0,
+      "costo_salidas": 3796300.0,
+      "rotacion": 0.9741,
+      "tpp": 4.47
+    },
+    "Memoria": {
+      "entradas": 2187,
+      "salidas": 2131,
+      "costo_entradas": 2408320.0,
+      "costo_salidas": 2347130.0,
+      "rotacion": 0.9744,
+      "tpp": 4.44
+    },
+    "Procesamiento": {
+      "entradas": 1925,
+      "salidas": 1893,
+      "costo_entradas": 8358100.0,
+      "costo_salidas": 8243700.0,
+      "rotacion": 0.9834,
+      "tpp": 2.92
+    },
+    "Redes": {
+      "entradas": 2212,
+      "salidas": 2154,
+      "costo_entradas": 2443030.0,
+      "costo_salidas": 2382450.0,
+      "rotacion": 0.9738,
+      "tpp": 4.0
+    },
+    "Refrigeración": {
+      "entradas": 2221,
+      "salidas": 2173,
+      "costo_entradas": 1131090.0,
+      "costo_salidas": 1105350.0,
+      "rotacion": 0.9784,
+      "tpp": 3.61
+    }
+  },
+  "matriz_tpp_categoria_mes": {
+    "Almacenamiento": {
+      "1": 0.66,
+      "2": 2.49,
+      "3": 3.86,
+      "4": 4.38,
+      "5": 5.0,
+      "6": 6.38,
+      "7": 6.27,
+      "8": 6.42,
+      "9": 5.73
+    },
+    "Energía": {
+      "1": 0.6,
+      "2": 2.3,
+      "3": 3.28,
+      "4": 3.89,
+      "5": 4.4,
+      "6": 4.45,
+      "7": 4.71,
+      "8": 4.47,
+      "9": 5.4
+    },
+    "Infraestructura": {
+      "1": 0.54,
+      "2": 2.41,
+      "3": 4.29,
+      "4": 4.79,
+      "5": 6.26,
+      "6": 6.76,
+      "7": 7.05,
+      "8": 7.26,
+      "9": 6.45
+    },
+    "Memoria": {
+      "1": 0.6,
+      "2": 2.3,
+      "3": 3.65,
+      "4": 4.34,
+      "5": 5.67,
+      "6": 6.66,
+      "7": 7.17,
+      "8": 7.42,
+      "9": 6.42
+    },
+    "Procesamiento": {
+      "1": 0.3,
+      "2": 1.52,
+      "3": 2.38,
+      "4": 2.77,
+      "5": 3.38,
+      "6": 4.24,
+      "7": 4.1,
+      "8": 4.6,
+      "9": 4.56
+    },
+    "Redes": {
+      "1": 0.72,
+      "2": 2.66,
+      "3": 3.51,
+      "4": 4.18,
+      "5": 4.56,
+      "6": 5.53,
+      "7": 5.52,
+      "8": 6.21,
+      "9": 5.92
+    },
+    "Refrigeración": {
+      "1": 0.79,
+      "2": 2.17,
+      "3": 3.19,
+      "4": 3.88,
+      "5": 4.65,
+      "6": 4.94,
+      "7": 5.2,
+      "8": 5.44,
+      "9": 4.44
+    }
+  },
+  "consumo_por_proyecto": {
+    "PRY001": 5126,
+    "PRY003": 4951,
+    "PRY004": 5001
+  }
+}
