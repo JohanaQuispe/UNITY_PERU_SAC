@@ -6,11 +6,11 @@ ETL en Python con control de calidad y dashboard en Power BI.
 
 ## Integrantes
 
-- Quispe Ruiz, Johana Carolina — 20 %
-- Sotelo Espinoza, Leoneld Mathias — 20 %
-- Montalvo Abrego, Camila Nadine — 20 %
-- Arroyo Julca, Mishell Alexandra Belen — 20 %
-- Cordova Paz, Diego Jason — 20 %
+- Quispe Ruiz, Johana Carolina — 100 %
+- Sotelo Espinoza, Leoneld Mathias — 100 %
+- Montalvo Abrego, Camila Nadine — 100 %
+- Arroyo Julca, Mishell Alexandra Belen — 100 %
+- Cordova Paz, Diego Jason — 100 %
 
 Docente: Víctor Isaac Chávez Bardales · NRC 26055
 
