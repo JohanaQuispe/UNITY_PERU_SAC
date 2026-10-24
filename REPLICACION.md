@@ -88,6 +88,7 @@ Si `python` no se reconoce, reinstalar marcando **"Add python.exe to PATH"**.
 ```sql
 SELECT name FROM sys.databases WHERE name = 'ALMACEN_ANONIMO';
 ```
+<img width="278" height="114" alt="image" src="https://github.com/user-attachments/assets/3a85803d-edeb-478a-9903-4aa768348b20" />
 
 Debe devolver una fila: `ALMACEN_ANONIMO`.
 
@@ -107,6 +108,8 @@ SELECT COUNT(*) AS Movimientos FROM ALMACEN_ANONIMO.dbo.movimiento_componente;
 
 Debe devolver **5348**.
 
+<img width="231" height="105" alt="image" src="https://github.com/user-attachments/assets/840edf5a-9a43-490e-a667-50304ecfc25c" />
+
 > Si SSMS muestra `5348.00`, es porque la columna es DECIMAL: el número real es 5348.
 
 ---
@@ -125,6 +128,8 @@ Debe devolver **5348**.
 ```sql
 SELECT COUNT(*) AS Tablas FROM DM_ALMACEN_ANONIMO.sys.tables;
 ```
+
+<img width="229" height="99" alt="image" src="https://github.com/user-attachments/assets/9df73191-f826-479f-8c3c-354b4beed05a" />
 
 Debe devolver **14**.
 
@@ -186,6 +191,8 @@ Instala `pandas`, `sqlalchemy`, `pyodbc` y `openpyxl`. Tarda 1–2 minutos.
 python -c "import pandas, sqlalchemy, pyodbc, openpyxl; print('librerias OK')"
 ```
 
+<img width="1553" height="57" alt="image" src="https://github.com/user-attachments/assets/056c423e-d42f-4652-89a3-e6620bdb06e6" />
+
 Debe responder `librerias OK`.
 
 ---
@@ -197,6 +204,7 @@ Desde la raíz del proyecto y **en la misma ventana de PowerShell** del paso 6:
 ```powershell
 python etl\etl_almacen_unity.py --datos datos --log logs
 ```
+<img width="1242" height="107" alt="image" src="https://github.com/user-attachments/assets/b9ec9774-f9e2-4f42-9ecf-ac44cb4ce032" />
 
 **Salida esperada (una línea + la ruta del log):**
 
