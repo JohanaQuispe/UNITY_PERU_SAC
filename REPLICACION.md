@@ -290,8 +290,12 @@ JOIN dbo.Dim_TipoMovimiento t ON f.Id_TipoMovimiento = t.Id_TipoMovimiento;
 | Unidades de entrada | **15425** |
 | Unidades de salida | **15078** |
 
+<img width="382" height="326" alt="Captura de pantalla 2026-10-24 102608" src="https://github.com/user-attachments/assets/484aa56f-bcd5-401c-b9e4-cc1bbd834cb3" />
+
 **Revisar también el log generado:** abrir `logs\etl_log_AAAAMMDD_HHMMSS.json` y confirmar
 `"registros_cargados": 5348`, `"completitud_pct": 100.0` y `"reconciliacion_ok": true`.
+
+<img width="453" height="547" alt="Captura de pantalla 2026-10-24 103018" src="https://github.com/user-attachments/assets/d23fa066-bba5-470a-96d6-c43db2cb657f" />
 
 ---
 
@@ -303,6 +307,8 @@ Comprueba los KPI con un script que **no** usa el código del ETL:
 pip install openpyxl
 python analisis\calcular_kpis.py
 ```
+
+<img width="1373" height="546" alt="Captura de pantalla 2026-10-24 103231" src="https://github.com/user-attachments/assets/df5ce35c-041d-4ba1-84bd-a68d1214142c" />
 
 **Salida esperada:**
 
@@ -318,6 +324,9 @@ Genera `analisis\salidas\kpis.json` y 14 archivos CSV en `powerbi\respaldo\`.
 
 1. Abrir **Power BI Desktop**.
 2. **Archivo → Abrir** → `powerbi\Dashboard_Almacen_BI.pbix`.
+
+<img width="1267" height="497" alt="Captura de pantalla 2026-10-24 103502" src="https://github.com/user-attachments/assets/f1400895-3516-499f-81d6-b5c12b2fc3b6" />
+
 3. Si pide credenciales, elegir *Base de datos → Autenticación de Windows* y **Conectar**.
 4. Menú **Inicio → Actualizar**. Esperar 20–40 segundos.
 5. Si el origen apunta a otro servidor: **Inicio → Transformar datos → Configuración de origen**
