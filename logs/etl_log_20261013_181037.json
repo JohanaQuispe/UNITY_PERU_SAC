@@ -1,0 +1,28 @@
+{
+  "registros_origen": 5348,
+  "nulos_obligatorios_antes": 0,
+  "cantidad_no_positiva_antes": 0,
+  "sin_producto_antes": 0,
+  "duplicados_antes": 0,
+  "registros_cargados": 5348,
+  "registros_rechazados": 0,
+  "anomalias_sensores": 297,
+  "lecturas_sensores": 25824,
+  "conteos_con_diferencia_recalculada": 0,
+  "salidas_sin_lote_suficiente": 0,
+  "nulos_obligatorios_despues": 0,
+  "cantidad_no_positiva_despues": 0,
+  "sin_producto_despues": 0,
+  "duplicados_despues": 0,
+  "completitud_pct": 100.0,
+  "filas_hecho": 5348,
+  "unidades_por_es_entrada": {
+    "0": 15078.0,
+    "1": 15425.0
+  },
+  "reconciliacion_ok": true,
+  "t_extraccion_s": 0.4,
+  "t_transf_carga_s": 14.2,
+  "version_etl": "2.0",
+  "fecha_ejecucion": "2026-10-13T18:10:37"
+}
