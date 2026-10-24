@@ -159,7 +159,8 @@ Reemplazar `TU_CLAVE` por la contraseña real.
 **Verificación:** las variables deben seguir cargadas en **esa misma ventana**:
 
 ```powershell
-echo $env:DM_URL
+$env:OLTP_URL = "mssql+pyodbc://localhost/ALMACEN_ANONIMO?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
+$env:DM_URL   = "mssql+pyodbc://localhost/DM_ALMACEN_ANONIMO?driver=ODBC+Driver+17+for+SQL+Server&trusted_connection=yes"
 ```
 
 > ⚠️ Si se cierra PowerShell, las variables se pierden. Hay que repetir este paso.
