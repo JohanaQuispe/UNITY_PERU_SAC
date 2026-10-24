@@ -1,30 +1,3 @@
-/*
-====================================================================
- PROYECTO: Análisis del ciclo de vida y disponibilidad de
-           componentes críticos mediante BI y Big Data
- EMPRESA:  EMPRESA COMERCIAL ANÓNIMA S.A.C. (nombre ficticio)
- BD:       ALMACEN_ANONIMO
- VERSIÓN:  3.0 (anonimizada para uso académico)
-
- NOTA ACADÉMICA:
- Los datos incluidos son SINTÉTICOS y sirven para desarrollar,
- probar y experimentar con la solución. No representan información
- real ni confidencial de la empresa en estudio. Los nombres de
- personas, proveedores, RUC, teléfonos, direcciones y correos
- electrónicos son ficticios (se usa el dominio reservado "example"
- según RFC 2606) y cualquier coincidencia con datos reales es
- casualidad.
-
- PROPÓSITO:
- - Registrar componentes críticos y su ciclo de vida.
- - Registrar movimientos: ingreso, salida, asignación, devolución,
-   traslado, mantenimiento, reemplazo y baja/obsolescencia.
- - Analizar disponibilidad, rotación, permanencia y criticidad.
- - Servir como fuente para el modelo dimensional de BI.
- - Servir como fuente para generar datasets históricos de Big Data.
-====================================================================
-*/
-
 USE master;
 GO
 
