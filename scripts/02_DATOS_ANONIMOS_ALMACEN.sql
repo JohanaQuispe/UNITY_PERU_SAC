@@ -1,13 +1,3 @@
-/*======================================================================
- DATOS SINTÉTICOS - ALMACEN_ANONIMO (uso académico)
- Generado con semilla fija (re-ejecutable, mismo resultado).
- Cobertura: 05/01/2026 - 30/09/2026 (días hábiles), 24 componentes.
- Diseñado para que los 4 KPIs del DW se CUMPLAN (ver reporte abajo).
- Flujo usa solo INGRESO/SALIDA (operativa pura de entradas/salidas).
- ORDEN: 1) OLTP_ALMACEN_ANONIMIZADO.sql  2) este script
-        3) OLAP_DW_ANONIMIZADO.sql  (o EXEC ETL_Cargar_Todo si ya existe)
-======================================================================*/
-
 USE ALMACEN_ANONIMO;
 GO
 
